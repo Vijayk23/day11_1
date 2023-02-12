@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <form> First Name<span id="star">*</span>  
+     <input type="text" placeholder="First Name..." id="firstName" required> </input> 
+        Last Name<span id="star">*</span> 
+     <input type="text" placeholder="Last Name..."required> </input><br><br>
+        Email<span id="star">*</span>
+     <input type="text" placeholder="Your@mail.com..."required> </input><br><br>
+        Your Experience<span id="star">*</span><br>
+        <span id="exp">⭐⭐⭐⭐⭐</span><br><br>
+        <p>Overall, How would you rate your experience with us?</p>
+        <p><b>How satisfied are you with<span id="star">*</span></b></p>
+        <table>
+          <tr>
+            <th></th>
+            <td>Very Satisfied</td>
+            <td>Satisfied</td>
+            <td>Netural</td>
+            <td>Unsatisfied</td>
+            <td>Very Unsatisfied</td>
+          </tr>
+          <tr>
+            <th>Purchase</th>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+          </tr>
+          <tr>
+            <th>Service</th>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+          </tr>
+          <tr>
+            <th>Company Overall</th>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+            <td><input type="radio"></td>
+          </tr>
+          
+        </table>
+        <p><b>How likely are you to <span id="star">*</span></b></p>
+        <table>
+            <tr>
+              <th></th>
+              <td>Very Satisfied</td>
+              <td>Satisfied</td>
+              <td>Netural</td>
+              <td>Unsatisfied</td>
+              <td>Very Unsatisfied</td>
+            </tr>
+            <tr>
+              <th>BUY From us again</th>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+            </tr>
+            <tr>
+              <th>Recommend our product to other</th>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+            </tr>
+            <tr>
+              <th>Recommend our company to other</th>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+              <td><input type="radio"></td>
+            </tr>
+            
+          </table>
+          <p><b>Additional comments or suggestions</b></p>
+          <textarea id="textarea" placeholder="Your Message..."></textarea><br>
+
+
+     <input type="SUBMIT" id="submit"></input>
+
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+#star{
+    color: red;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+#textarea{
+    width: 100%;
+    height: 50px;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(111, 193, 248);
+    font-weight: bold;
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.8px;
+    background-color: white;
+    margin: 0px 300px;
+        border-radius: 10px;
+}
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#submit{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: rgb(0, 140, 255);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bolder;
+    border-color: #dddddd;
+    
+}
+input{
+    border-radius: 5px;
+    border-color: blue;
+    
+    
+}
+textarea{
+    border-radius: 5px;
+    border-color: blue;
+}
